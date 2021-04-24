@@ -6,13 +6,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     OnePlusRecentsProvider \
-    OPLauncher 
-    
-ifneq ($(WITH_MINIMAL_OPAPPS), true)
-PRODUCT_PACKAGES += \
-    OPGallery \
+    OPLauncher \
     OPIconpackOxygen \
     OPIconpackRound \
     OPWidget \
     OPWeather
-endif
